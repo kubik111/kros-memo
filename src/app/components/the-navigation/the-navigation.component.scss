@@ -1,40 +1,45 @@
 @import"~@kros-sk/bootstrap/theming";
 
+.navbar-custom{
+    background-color: kros-blue('10');
+    
+}
+
 :host{
-  float: left;
+    width:100%;
+    margin: 0 auto;
 }
+// nav {
+//   background-color: kros-blue('10');
+// }
 
-nav {
-  background-color: kros-blue('10');
-}
+// .menu {
+//   display: inline-block;
+// }
 
-.menu {
-  display: inline-block;
-}
+// a {
+//   margin-right: 10px;
+//   text-decoration: none;
+//   font-size: 20px;
 
-a {
-  margin-right: 10px;
-  text-decoration: none;
-  font-size: 20px;
+//   &.brand {
+//     margin-left: 20px;
+//     font-weight: bold;
+//     font-size: 40px;
+//   }
 
-  &.brand {
-    margin-left: 20px;
-    font-weight: bold;
-    font-size: 40px;
-  }
-
-  &.active{
-      font-weight: bold;
-  }
-}
+//   &.active{
+//       font-weight: bold;
+//   }
+// }
 
 
-ul {
-  margin: 0;
-  padding-left: 20px;
-}
+// ul {
+//   margin: 0;
+//   padding-left: 20px;
+// }
 
-li {
-  list-style-type: none;
-  display: inline;
-}
+// li {
+//   list-style-type: none;
+//   display: inline;
+// }

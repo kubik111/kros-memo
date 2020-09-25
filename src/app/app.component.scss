@@ -1,20 +1,22 @@
 @import"~@kros-sk/bootstrap/theming";
 
-.app {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
+// .app {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+// }
 
 header {
-  background-color: kros-blue('10');
-  overflow: hidden;
+  position: fixed;
+  height: 56px;
+  width: 100%;
 }
 
 main {
-  border: solid 1px;
+  position: relative;
+  top: 56px;
   height: 100%;
   width: 100%;
 }

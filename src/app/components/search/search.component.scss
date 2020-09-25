@@ -1,28 +1,16 @@
 @import"~@kros-sk/bootstrap/theming";
 
 :host {
-    float: right;
-    margin-top: 10px;
-    margin-right: 5px;
+    margin-left: auto;
 }
 
-.search {
+.search-input-custom{
+    margin-right: 4px;
 }
 
-input[type=text] {
-  padding: 6px;
-  font-size: 13px;
-  border-radius: 5px;
-  margin-right: 5px;
+.btn-submit-custom{
+    padding: 6px;
+    font-size: 1em;
 }
 
-button[type=submit] {
-  padding: 4px;
-  background: #ddd;
-  font-size: 15px;
-  color: kros-green('70');
-  border: 2px solid kros-green('70');
-  border-radius: 8px;
-  background-color: transparent;
-  cursor: pointer;
-}
+
